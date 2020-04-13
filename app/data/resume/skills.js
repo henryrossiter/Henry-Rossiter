@@ -178,11 +178,36 @@ export const skills = [
   {
     title: 'Scikit-Learn',
     compentency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
-    title: 'Pylint',
+    title: 'Differential Equations',
     compentency: 4,
-    category: ['Python'],
+    category: ['Machine Learning', 'Mathematics'],
+  },
+  {
+    title: 'Statistics',
+    compentency: 5,
+    category: ['Machine Learning', 'Mathematics'],
+  },
+  {
+    title: 'Linear Algebra',
+    compentency: 4,
+    category: ['Machine Learning', 'Mathematics'],
+  },
+  {
+    title: 'Probability Modeling',
+    compentency: 4,
+    category: ['Machine Learning', 'Mathematics'],
+  },
+  {
+    title: 'Derivative Price Modeling',
+    compentency: 4,
+    category: ['Finance', 'Mathematics'],
+  },
+  {
+    title: 'Cash Flow Modeling',
+    compentency: 2,
+    category: ['Finance', 'Mathematics'],
   },
 ];

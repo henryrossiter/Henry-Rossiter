@@ -1,7 +1,7 @@
 const courses = [
   {
-    title: 'Convex Optimization',
-    number: 'EE 364a',
+    title: 'Intro to Computational Fluid Dynamics',
+    number: 'COE 347',
     link: 'http://stanford.edu/class/ee364a/',
     univerity: 'Stanford',
   }, {
