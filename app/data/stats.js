@@ -5,12 +5,11 @@ const data = {
   },
   countries: {
     label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    value: 26,
   },
   location: {
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Austin, TX',
   },
 };
 
