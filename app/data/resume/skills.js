@@ -6,9 +6,6 @@ export const categories = [
     name: 'Data Science',
     color: '#515dd4',
   }, {
-    name: 'Databases',
-    color: '#3896e2',
-  }, {
     name: 'Design',
     color: '#747fff',
   }, {
@@ -23,9 +20,6 @@ export const categories = [
   }, {
     name: 'Machine Learning',
     color: '#e47272',
-  }, {
-    name: 'Other',
-    color: '#c3423f',
   }, {
     name: 'Python',
     color: '#37b1f5',
@@ -100,9 +94,9 @@ export const skills = [
     category: ['Web Development', 'Frameworks', 'Python'],
   },
   {
-    title: 'Product Development',
+    title: 'Object Oriented Software Design',
     compentency: 3,
-    category: ['Other'],
+    category: ['Design'],
   },
   {
     title: 'Data Analysis',
@@ -135,7 +129,7 @@ export const skills = [
     category: ['Web Development', 'Languages'],
   },
   {
-    title: 'CSSSASS/SCSS',
+    title: 'CSS/SASS/SCSS',
     compentency: 3,
     category: ['Web Development', 'Languages'],
   },
@@ -143,6 +137,12 @@ export const skills = [
     title: 'Python',
     compentency: 5,
     category: ['Languages', 'Python'],
+
+  },
+  {
+    title: 'R',
+    compentency: 2,
+    category: ['Languages'],
 
   },
   {
