@@ -1,42 +1,51 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Crisislogger',
+    subtitle: 'A project to improve understanding of the Coronavirus Pandemic',
+    link: 'https://github.com/ChildMindInstitute/crisislogger',
+    image: '/images/projects/crisislogger.png',
+    date: '2020',
+    desc: 'I worked with the MATTER Lab to improve understanding of the Coronavirus Pandemic. '
+      + 'Crisislogger is a website where users securely record and share stories, '
+      + 'thoughts, and feeling related to the Coronavirus Pandemic. Shared recordings are '
+      + 'transcribed and can be uploaded to a public or private database.',
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'ESPORTS Probability Modeling',
+    subtitle: 'Building probability models to maximize CS:GO betting profitability',
+    link: 'https://medium.com/analytics-vidhya/scraping-analyzing-cs-go-game-score-data-from-esea-997a875ca90f',
+    image: '/images/projects/probabilityDistribution.png',
+    date: '2020',
+    desc: 'I scraped CAPTCHA protected CS:GO tournament results data from a prominent esports league.  '
+      + 'I investigated the dataset to gain insight into the probability distributions of certain '
+      + 'match outcomes. Using the distributions, I am able to place prop bets with positive expected returns.',
   }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'MindLogger',
+    subtitle: 'Open-source Data Collection Platform',
+    link: 'https://mindlogger.org/',
+    image: '/images/projects/mindlogger.png',
+    date: '2019 - 2020',
+    desc: 'For year, I\'ve worked with the MATTER Lab to develop MindLogger. '
+      + 'MindLogger is a software system used by researchers and clinitians around '
+      + 'the world. I primarily worked on the MindLogger mobile app and website.',
   }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    title: 'Option Price Scraping and Estimation',
+    subtitle: 'Investigating Financial Option Pricing',
+    link: 'https://medium.com/@henry.rossiter/option-pricing-black-scholes-vs-robinhood-da3eacb8383c',
+    image: '/images/projects/optionPricing.png',
+    date: '2019',
+    desc: 'I created a python program to scrape option bid & ask pricing from Robinhood. '
+      + 'The program calculated the contract\'s theoretical value using a Black Scholes model. '
+      + 'Using the theoretical price and the scraped bid-ask spread, I was able to detect'
+      + '\'mispriced\' contracts.',
+  }, {
+    title: 'Protocol Builder',
+    subtitle: 'A Vue App to Create Uniform Survey Schemas',
+    link: 'https://github.com/henryrossiter/Protocol-Builder',
+    image: '/images/projects/protocolBuilder.png',
+    date: '2019',
+    desc: 'A Vue component that can be used to interactively develop ReproSchema-compliant JSONLD files.'
+     + 'The component has been used by researchers around the world and is available on NPM. ',
   },
 ];
 
