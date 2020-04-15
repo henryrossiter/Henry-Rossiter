@@ -15,6 +15,7 @@ import Contact from './views/Contact';
 import NotFound from './views/NotFound';
 
 // All of our CSS
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import './static/css/main.scss';
 
 ReactDOM.render(
