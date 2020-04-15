@@ -47,8 +47,8 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Henry.
-      I’m a software developer and engineering student. My interests include reactive web design, mathematical statistics, and high-performance computing.
+      <p>
+      I’m a software developer and computational engineering student based in Austin, TX.
       </p>
       <ul className="actions">
         <li>
