@@ -14,7 +14,7 @@ const Nav = () => (
         <Carousel
           controls={false}
           indicators={false}
-          interval={3000}
+          interval={2000}
         >
           <Carousel.Item>
             <img

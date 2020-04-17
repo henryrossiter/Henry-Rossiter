@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import url from 'url';
 
+const projectImageStyle = {
+  filter: 'brightness(76%)'
+}
+
 const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
@@ -11,7 +15,7 @@ const Cell = ({ data }) => (
         <time className="published">{data.date}</time>
       </header>
       <a href={data.link} className="image">
-        <img src={url.resolve(BASE_PATH, data.image)} alt={data.title} />
+        <img src={`${BASE_PATH}${data.image}`} alt={data.title} style={projectImageStyle}/>
       </a>
       <div className="description">
         <p>{data.desc}</p>

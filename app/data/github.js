@@ -26,11 +26,11 @@ const data = [
   },
   {
     label: 'Lines of Javascript powering this website',
-    value: '2721',
+    value: '2781',
   },
   {
-    label: 'Current hosting service',
-    value: 'Google Cloud Platform',
+    label: 'Hosted with',
+    value: 'GitHub Pages',
   },
 ];
 

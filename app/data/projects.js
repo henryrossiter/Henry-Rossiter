@@ -14,7 +14,7 @@ const data = [
     title: 'ESPORTS Probability Modeling',
     subtitle: 'Building probability models to maximize CS:GO betting profitability',
     link: 'https://medium.com/analytics-vidhya/scraping-analyzing-cs-go-game-score-data-from-esea-997a875ca90f',
-    image: '/images/projects/probabilityDistribution.png',
+    image: '/images/projects/probabilityDistribution.jpg',
     date: '2020',
     desc: 'I scraped CAPTCHA protected CS:GO tournament results data from a prominent esports league.  '
       + 'I investigated the dataset to gain insight into the probability distributions of certain '
@@ -25,9 +25,9 @@ const data = [
     link: 'https://mindlogger.org/',
     image: '/images/projects/mindlogger.png',
     date: '2019 - 2020',
-    desc: 'For year, I\'ve worked with the MATTER Lab to develop MindLogger. '
-      + 'MindLogger is a software system used by researchers and clinitians around '
-      + 'the world. I primarily worked on the MindLogger mobile app and website.',
+    desc: 'I worked with the MATTER Lab to develop MindLogger, a software system '
+      + 'used by researchers and clinitians around the world. I contributed '
+      + 'to the MindLogger mobile app (React Native), website (Vue), and server (Python).',
   }, {
     title: 'Option Price Scraping and Estimation',
     subtitle: 'Investigating Financial Option Pricing',
