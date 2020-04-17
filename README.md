@@ -43,7 +43,7 @@ You may wish to fork this repository or remove my remote origin and add your own
     npm run dev
     ```
 
-    Navigate to `<ip>:<port>` default: [http://localhost:7999](http://localhost:7999) to view my website.
+    Navigate to `<ip>:<port>` default: [http://localhost:8000](http://localhost:8000) to view my website.
 
     This completes set up instructions. Please continue reading to learn how to modify this site to make it your own.
 
