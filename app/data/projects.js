@@ -11,6 +11,16 @@ const data = [
       + 'thoughts, and feeling related to the Coronavirus Pandemic. Shared recordings are '
       + 'transcribed and can be uploaded to a public or private database.',
   }, {
+    title: 'Supersonic Fluid Flow Simulation',
+    subtitle: 'Investigating and Visualizing a Mach 3 Flow using CFD',
+    link: 'https://medium.com/@henry.rossiter/simulating-a-supersonic-flow-over-a-step-with-cfd-269512d907a1',
+    image: '/images/projects/cfd.gif',
+    date: '2020',
+    desc: 'I simulated a Mach 3 fluid flow over a forward facing step using computational  '
+      + 'fluid dynamics (CFD). I developed a scalable mesh and nondimensionalized the flow\'s '
+      + 'parameters to investigate the formation of shock waves. I used OpenFOAM , an '
+      + 'open source CFD engine, and compared the numerical accuracy of multiple integration schemes.',
+  }, {
     title: 'ESPORTS Probability Modeling',
     subtitle: 'Building probability models to maximize CS:GO betting profitability',
     link: 'https://medium.com/analytics-vidhya/scraping-analyzing-cs-go-game-score-data-from-esea-997a875ca90f',
