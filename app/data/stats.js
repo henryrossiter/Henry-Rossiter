@@ -5,7 +5,7 @@ const data = {
   },
   countries: {
     label: 'Countries visited',
-    value: 26,
+    value: 16,
   },
   location: {
     label: 'Current city',
