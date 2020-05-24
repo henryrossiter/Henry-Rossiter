@@ -5,8 +5,12 @@ import Course from './Courses/Course';
 
 const getRows = (courses) => courses.sort((a, b) => {
   let ret = 0;
-  if (a.university > b.university) ret = -1;
-  else if (a.university < b.university) ret = 1;
+  if (a.number.includes('COE') && b.number.includes('M')) ret = -1;
+  else if (a.number.includes('COE') && b.number.includes('ASE')) ret = -1;
+  else if (a.number.includes('M') && b.number.includes('ASE')) ret = -1;
+  else if (a.number.includes('M') && b.number.includes('COE')) ret = 1;
+  else if (a.number.includes('ASE') && b.number.includes('COE')) ret = 1;
+  else if (a.number.includes('ASE') && b.number.includes('M')) ret = 1;
   else if (a.number > b.number) ret = 1;
   else if (a.number < b.number) ret = -1;
   return ret;
