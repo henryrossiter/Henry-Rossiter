@@ -11,7 +11,8 @@ I work with a team of researchers and developers at the Matter Lab, a research l
 #### I like
 - Cycling
 - Cohesive color schemes
-- Economics
+- ES6 syntax
+- Behavioral economics
 - Sharing food
 - Podcasts ([Lex Fridman's AI Podcast](https://lexfridman.com/ai/), [Pardon My Take](https://www.barstoolsports.com/shows/pardon-my-take), [The Economist](http://radio.economist.com/), [The Joe Rogan Experience](http://podcasts.joerogan.net/), and others)
 - [Good design](/)
@@ -22,7 +23,7 @@ I work with a team of researchers and developers at the Matter Lab, a research l
 
 - I prefer mountains to beaches, but I'll settle for beaches every once in a while.
 
-- I've been to over 20 countries, many of which I would like to revisit.
+- My favorite geographical feature is the Franklin Mountain Range near El Paso, TX
 
 - I recently completed the Tour du Mont Blanc, an epic trek through Switzerland, Italy, and France.
 
