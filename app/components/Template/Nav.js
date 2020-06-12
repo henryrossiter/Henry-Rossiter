@@ -11,33 +11,11 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <Carousel
-          controls={false}
-          indicators={false}
-          interval={2000}
-        >
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={`${BASE_PATH}/images/me_icon.jpg`}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={`${BASE_PATH}/images/me_icon2.jpg`}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={`${BASE_PATH}/images/me_icon3.jpg`}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+        <img
+          className="d-block w-100"
+          src={`${BASE_PATH}/images/me.jpg`}
+          alt="First slide"
+        />
       </Link>
       <header>
         <h2>Henry Rossiter</h2>
