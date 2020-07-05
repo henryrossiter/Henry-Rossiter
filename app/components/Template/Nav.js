@@ -12,9 +12,7 @@ const Nav = () => (
     <section id="intro">
       <Link to="/" className="logo">
         <img
-          className="d-block w-100"
           src={`${BASE_PATH}/images/me.jpg`}
-          alt="First slide"
         />
       </Link>
       <header>
