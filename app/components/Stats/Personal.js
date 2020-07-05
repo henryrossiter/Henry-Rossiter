@@ -8,12 +8,18 @@ const PersonalStats = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
+    const msPerDay = 1000*60*60*24; // ms in a day
     const birthTime = new Date('1998-11-04T02:29:00');
+    const gradDate = new Date('2020-12-19T00:00:00');
     setData({
       ...data,
       age: {
         label: 'Current age',
         value: ((Date.now() - birthTime) / divisor).toFixed(11),
+      },
+      grad: {
+        label: 'Days until (expected) graduation',
+        value: ((gradDate - Date.now()) / msPerDay).toFixed(0),
       },
     });
   };
