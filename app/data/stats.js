@@ -11,6 +11,10 @@ const data = {
     label: 'Current city',
     value: 'Austin, TX',
   },
+  grad: {
+    label: 'Days until graduation',
+    value: 0,
+  },
 };
 
 export default data;
