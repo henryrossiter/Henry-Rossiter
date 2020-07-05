@@ -15,19 +15,18 @@ import Contact from './views/Contact';
 import NotFound from './views/NotFound';
 
 // All of our CSS
-//import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import './static/css/main.scss';
 
 ReactDOM.render(
   <Router basename={BASE_PATH}>
     <Switch>
-      <Route exact path="/" component={Index} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       <Route path="/stats" component={Stats} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />
-      {/* Only useful in development mode */}
+      <Route path="/" component={Index} />
       <Route component={NotFound} status={404} />
     </Switch>
   </Router>,
