@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Monte Carlo Stock Simulation',
+    subtitle: 'A visualization library for simulating binomially-distributed asset returns',
+    link: 'https://medium.com/@henry.rossiter/visualizing-stock-pricing-simulations-de1e2647f94e',
+    image: '/images/projects/montecarlo.gif',
+    date: '2020',
+    desc: 'I built a Python program to simulate and visualized binomially-distributed asset returns.'
+      + 'The binomial pricing model can be used to price equity derivatives and gain insight into '
+      + 'risk distributions.',
+  }, {
     title: 'Crisislogger',
     subtitle: 'A project to improve understanding of the Coronavirus Pandemic',
     link: 'https://github.com/ChildMindInstitute/crisislogger',
