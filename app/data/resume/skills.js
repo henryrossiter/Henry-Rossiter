@@ -9,9 +9,6 @@ export const categories = [
     name: 'Design',
     color: '#747fff',
   }, {
-    name: 'Frameworks',
-    color: '#64cb7b',
-  }, {
     name: 'Javascript',
     color: '#d75858',
   }, {
@@ -24,11 +21,11 @@ export const categories = [
     name: 'Python',
     color: '#37b1f5',
   }, {
-    name: 'Tools',
-    color: '#40494e',
-  }, {
     name: 'Web Development',
     color: '#cc7b94',
+  }, {
+    name: 'Mathematics',
+    color: '#ffd300',
   },
 ];
 
@@ -41,32 +38,27 @@ export const skills = [
   {
     title: 'Node.JS',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'React Native',
     compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
+    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Vue',
     compentency: 5,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    compentency: 3,
-    category: ['Tools', 'Languages'],
+    category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Amazon Web Services',
     compentency: 3,
-    category: ['Web Development', 'Tools'],
+    category: ['Web Development'],
   },
   {
     title: 'Matlab',
@@ -84,34 +76,9 @@ export const skills = [
     category: ['Data Science', 'Machine Learning'],
   },
   {
-    title: 'Flask',
-    compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Python'],
-  },
-  {
-    title: 'Django',
-    compentency: 2,
-    category: ['Web Development', 'Frameworks', 'Python'],
-  },
-  {
-    title: 'Object Oriented Software Design',
-    compentency: 3,
-    category: ['Design'],
-  },
-  {
     title: 'Data Analysis',
     compentency: 5,
     category: ['Data Science', 'Machine Learning'],
-  },
-  {
-    title: 'Git',
-    compentency: 5,
-    category: ['Tools'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    compentency: 3,
-    category: ['Tools'],
   },
   {
     title: 'Numpy',
@@ -124,20 +91,9 @@ export const skills = [
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
-    title: 'HTML',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'CSS/SASS/SCSS',
-    compentency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
     title: 'Python',
     compentency: 5,
     category: ['Languages', 'Python'],
-
   },
   {
     title: 'R',
@@ -152,13 +108,13 @@ export const skills = [
   },
   {
     title: 'Photoshop',
-    compentency: 4,
+    compentency: 3,
     category: ['Design'],
   },
   {
-    title: 'Keras',
-    compentency: 3,
-    category: ['Machine Learning', 'Python'],
+    title: 'UI/UX Design',
+    compentency: 4,
+    category: ['Design'],
   },
   {
     title: 'Visualization',
@@ -176,8 +132,8 @@ export const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'Scikit-Learn',
-    compentency: 3,
+    title: 'Numerical Methods',
+    compentency: 4,
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
@@ -198,7 +154,7 @@ export const skills = [
   {
     title: 'Probability Modeling',
     compentency: 4,
-    category: ['Machine Learning', 'Mathematics'],
+    category: ['Machine Learning', 'Data Science', 'Mathematics'],
   },
   {
     title: 'Derivative Price Modeling',
@@ -207,7 +163,22 @@ export const skills = [
   },
   {
     title: 'Cash Flow Modeling',
-    compentency: 2,
+    compentency: 3,
     category: ['Finance', 'Mathematics'],
+  },
+  {
+    title: 'Monte Carlo Simulations',
+    compentency: 4,
+    category: ['Finance', 'Mathematics'],
+  },
+  {
+    title: 'Finite Element Analysis',
+    compentency: 4,
+    category: ['Machine Learning', 'Mathematics', 'Data Science'],
+  },
+  {
+    title: 'Computational Fluid Dynamics',
+    compentency: 3,
+    category: ['Mathematics'],
   },
 ];
